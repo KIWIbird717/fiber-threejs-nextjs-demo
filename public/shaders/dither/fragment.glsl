@@ -137,7 +137,7 @@ void main() {
   diffuse = dither8x8(uv * ditherSize, diffuse * uVisibility);
   
   float colorFreq = (vScreenUV.y * 4.0 + 0.0 + uTime * 0.001  );
-  colorFreq = mix(colorFreq, -vScreenUV.y * 4.0 + 0.0 + uTime * 0.001 , mouseCircle);
+  colorFreq = mix(1.0, -vScreenUV.y * 4.0 + 0.0 + uTime * 0.001 , mouseCircle);
   vec3 paletteCurrent = palette(colorFreq, c0,c1,c2,c3);
   vec3 paletteColor = paletteCurrent;
 

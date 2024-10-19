@@ -7,6 +7,7 @@ export default function Home() {
     <div className="flex h-screen w-screen flex-col px-6 py-14">
       <Link href={"/basics"}>Basics</Link>
       <Link href={"/animations"}>Animations</Link>
+      <Link href={"/events"}>Events</Link>
     </div>
   );
 }
