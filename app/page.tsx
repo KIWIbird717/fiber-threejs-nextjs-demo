@@ -8,6 +8,7 @@ export default function Home() {
       <Link href={"/basics"}>Basics</Link>
       <Link href={"/animations"}>Animations</Link>
       <Link href={"/events"}>Events</Link>
+      <Link href={"/cursor-interaction-and-phisics"}>Cursor interaction and phisics</Link>
     </div>
   );
 }
