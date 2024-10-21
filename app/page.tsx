@@ -3,6 +3,8 @@
 import Link from "next/link";
 
 export default function Home() {
+  console.log("huh");
+
   return (
     <div className="flex h-screen w-screen flex-col px-6 py-14">
       <Link href={"/basics"}>Basics</Link>
